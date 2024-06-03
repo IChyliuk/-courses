@@ -11,4 +11,4 @@ var_dump($array);
             }
         }
     }
-    var_dump($array); // вывод
+    var_dump($array); // вывод x
