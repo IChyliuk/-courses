@@ -1,0 +1,2 @@
+{"uid":"1","name":"Yasha","age":27,"workplace":"Вконтакте","mail":"yashayash97@gmail.com"}
+{"uid":"2","name":"Ivan","age":18,"workplace":"-","mail":"cilukivan@gmail.com"}
