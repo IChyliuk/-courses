@@ -1,4 +1,5 @@
 <?php
+$dir = 'users';
 function Create(): void
 {
     $json1 = [
