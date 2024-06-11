@@ -1,2 +1,0 @@
-{"uid":"1","name":"Yasha","age":"27","workplace":"VK","mail":"yashayash97@gmail.com","created":"2024-06-10 13:41:19"}
-{"uid":"2","name":"Ivan","age":"18","workplace":"none","mail":"cilukivan@gmail.com","created":"2024-06-10 13:41:19"}
