@@ -29,14 +29,15 @@ function first_test(): bool
             9
         ]
     ];
-    if(recursion($segments, 0) == $expected) {
+    if (recursion($segments, 0) == $expected) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
-function second_test(): bool{
+
+function second_test(): bool
+{
     $segments = [
         [
             0,
@@ -57,14 +58,15 @@ function second_test(): bool{
             10
         ]
     ];
-    if(recursion($segments, 0) == $expected) {
+    if (recursion($segments, 0) == $expected) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
-function third_test(): bool{
+
+function third_test(): bool
+{
     $segments = [
         [
             0,
@@ -93,10 +95,9 @@ function third_test(): bool{
             10
         ]
     ];
-    if(recursion($segments, 0) == $expected) {
+    if (recursion($segments, 0) == $expected) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
