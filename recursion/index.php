@@ -1,5 +1,5 @@
 <?php
-function recursion($segments_array, $count): array
+function recursion($segments_array, $count = 0): array
 {
     if ($count >= count($segments_array) - 1) {
         return $segments_array;

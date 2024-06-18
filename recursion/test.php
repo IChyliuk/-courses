@@ -29,7 +29,7 @@ function first_test(): bool
             9
         ]
     ];
-    if (recursion($segments, 0) == $expected) {
+    if (recursion($segments) == $expected) {
         return true;
     } else {
         return false;
@@ -58,7 +58,7 @@ function second_test(): bool
             10
         ]
     ];
-    if (recursion($segments, 0) == $expected) {
+    if (recursion($segments) == $expected) {
         return true;
     } else {
         return false;
@@ -95,7 +95,7 @@ function third_test(): bool
             10
         ]
     ];
-    if (recursion($segments, 0) == $expected) {
+    if (recursion($segments) == $expected) {
         return true;
     } else {
         return false;
