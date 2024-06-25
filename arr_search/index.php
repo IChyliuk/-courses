@@ -9,6 +9,6 @@ $array = [
     0,
     5
 ];
-$search_number = 7;
+$search_number = 2;
 $result = search($array, $search_number);
 echo 'Значение ' . ($result ? 'найдено' : 'не найдено');

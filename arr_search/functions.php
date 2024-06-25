@@ -5,14 +5,13 @@ function search($array, $search_number): bool
         return false;
     }
 
-    if (current($array) == $search_number) {
-        return true;
-    } else {
-        for ($i = 1; $i < count($array); $i++) {
-            if (next($array) == $search_number) {
-                return true;
-            }
+    while (true) {
+        if (current($array) == $search_number) {
+            return true;
         }
-        return false;
+        $next = next($array);
+        if ($next === false) {
+            return false;
+        }
     }
 }
