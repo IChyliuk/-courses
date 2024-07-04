@@ -19,7 +19,7 @@ if ($_SESSION["auth"]) {
                 $encode = json_encode($userInfo) . PHP_EOL;
                 file_put_contents($filename, $encode, FILE_APPEND | LOCK_EX);
                 echo "Пользователь успешно зарегистрирован.";
-                header("Location: login.php");
+                header("Location: login.html");
                 exit;
             } else {
                 echo "Пользователь с таким именем уже существует.";
