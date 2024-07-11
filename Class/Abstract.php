@@ -11,7 +11,7 @@ abstract class People implements Description
     public int $height;
     public float $weight;
     public string $eyes;
-    private $normal_weight;
+    private float $normal_weight;
 
     public function setName(string $name): People
     {
@@ -66,7 +66,8 @@ abstract class People implements Description
         return $this;
     }
 
-    private function difference_weight($weight, $normal_weight){
+    private function difference_weight($weight, $normal_weight): People
+    {
         $this->diff = $weight-$normal_weight;
         return $this;
     }
