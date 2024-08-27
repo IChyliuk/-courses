@@ -6,7 +6,6 @@ use PDO;
 
 abstract class MySQL
 {
-    public object $logs;
     public PDO $PDO;
     public object $stmt;
     public string $sql = 'SELECT ';
